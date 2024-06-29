@@ -56,3 +56,5 @@ bin/
 
 out/
 .idea
+out
+.idea/

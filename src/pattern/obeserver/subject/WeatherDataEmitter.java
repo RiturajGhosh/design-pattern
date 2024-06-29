@@ -18,23 +18,6 @@ public class WeatherDataEmitter implements Observable {
         this.setObserverList(new ArrayList<>());
     }
 
-    public WeatherDataEmitter(double temperature,
-                              double humidity,
-                              double pressure) {
-        this(temperature, humidity, pressure, new ArrayList<>());
-    }
-
-    private WeatherDataEmitter(double temperature,
-                               double humidity,
-                               double pressure,
-                               List<Observer> observerList) {
-        this.temperature = temperature;
-        this.humidity = humidity;
-        this.pressure = pressure;
-        this.observerList = observerList;
-        notifyObservers();
-    }
-
     @Override
     public void notifyObservers() {
         observerList.forEach(observer ->

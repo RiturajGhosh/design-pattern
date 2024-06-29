@@ -1,6 +1,5 @@
 import pattern.obeserver.displaydevice.CurrentConditionDisplay;
 import pattern.obeserver.displaydevice.StatisticsDisplay;
-import pattern.obeserver.interfaces.Observable;
 import pattern.obeserver.interfaces.Observer;
 import pattern.obeserver.subject.WeatherDataEmitter;
 import pattern.strategy.curse.CruciatisCurse;
