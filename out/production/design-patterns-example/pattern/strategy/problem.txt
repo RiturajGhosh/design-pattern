@@ -1,9 +1,0 @@
-The Strategy Pattern is a design principle that allows you
- to switch between different algorithms or behaviors at runtime
-
-1. Problem 1:
-The defence against dark arts teacher in hogwards can cast 3 types of curse spell.
-The three spells are - CruciatisCurse, KillingCurse, ImperioCurse.
-
-We have to design a way that based on the curse name the wizard can decide which curse to spell.
-
